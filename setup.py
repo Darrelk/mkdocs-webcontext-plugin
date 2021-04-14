@@ -3,6 +3,9 @@ from shutil import rmtree
 from pathlib import Path
 from setuptools import setup, Command
 
+HERE = Path(__file__).parent
+README = (HERE.joinpath("readme.md")).read_text()
+
 setup(
     name="mkdocs-webcontext-plugin",
     version="0.1.0",
