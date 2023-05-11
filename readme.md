@@ -16,7 +16,8 @@ http://127.0.0.1:8000/foo  | /foo | /images/img1.jpg | /foo/images/img1.jpg
 
 ## Quick start
 
-1. Install the module using pip: `pip install mkdocs-webcontext`
+1. Install the module using pip: `pip install mkdocs-webcontext-plugin`
+   1.  Or for the new school kids: `poetry add mkdocs-webcontext-plugin`
 
 2. In your project, add a plugin configuration to `mkdocs.yml`:
 
