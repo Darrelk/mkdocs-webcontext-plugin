@@ -8,7 +8,7 @@ README = (HERE.joinpath("readme.md")).read_text()
 
 setup(
     name="mkdocs-webcontext-plugin",
-    version="0.1.0",
+    version="0.1.1",
     packages=["mkdocs_webcontext_plugin"],
     url="https://github.com/darrelk/mkdocs-webcontext-plugin",
     license="MIT",
